@@ -36,13 +36,22 @@ So in the case of "sorted", you can use it to decide what you're going to sort. 
 sorted(list_of_words, key=lambda x: x.lower())
 ```
 
-x represents your words in the list that the function will operate on.
+x represents your words in the list that the function will operate on.  Also, I'm kind of impressed that I was able to do that formatting so nicely.  It's the little things :)
 
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
+
+List comprehensions are a quick way to make new lists, often from old lists.  You can change and filter them without having to run a function on them.  For example, if you had a list of numbers from 1 to 10 called "numbers", you could make the list of only even numbers in the list as follows.
+
+```python
+evens = [n for n in numbers if n%2==0]
+```
+This comprehension says "Give me a list where you put in "n" every time you have an item "n" in the list "numbers", but only if it fits the criteria n%2==0."  
+
+
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
