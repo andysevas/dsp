@@ -49,11 +49,16 @@ List comprehensions are a quick way to make new lists, often from old lists.  Yo
 ```python
 evens = [n for n in numbers if n%2==0]
 ```
-This comprehension says "Give me a list where you put in "n" every time you have an item "n" in the list "numbers", but only if it fits the criteria n%2==0."  
+This comprehension says "Give me a list where you put in "n" every time you have an item "n" in the list "numbers", but only if it fits the criteria n%2==0."  You can actually get the same result with the filter function.
+
+```python
+filter(lambda n: n%2==0, numbers)
+```
+
+If instead of reducing the list, I was changing it, like squaring each number, I could have used "map" in the same way.  From what I understand, calling functions is more resource-intensive than list comprehensions.  The same effect can be achieved on sets, except the result will be a set and it uses {braces like this}.  
 
 
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
