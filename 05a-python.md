@@ -55,7 +55,7 @@ This comprehension says "Give me a list where you put in "n" every time you have
 filter(lambda n: n%2==0, numbers)
 ```
 
-If instead of reducing the list, I was changing it, like squaring each number, I could have used "map" in the same way.  From what I understand, calling functions is more resource-intensive than list comprehensions.  The same effect can be achieved on sets, except the result will be a set and it uses {braces like this}.  
+If instead of reducing the list, I was changing it, like squaring each number, I could have used "map" in the same way.  From what I understand, calling functions is more resource-intensive than list comprehensions.  The same effect can be achieved on sets, except the result will be a set and it uses {braces like this}.  Dictionary comprehensions largely manipulate the keys and values so that they can combine or rearrange values as necessary.
 
 
 
