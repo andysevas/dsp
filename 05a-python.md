@@ -32,7 +32,10 @@ Lambda is used to make functions that don't have to be named first.  Some people
 
 So in the case of "sorted", you can use it to decide what you're going to sort.  Let's say you want to sort a list of words, but first you need to make sure that the sort doesn't get all messed up because some of them are uppercase and some are lowercase.  You can write the sorted function like this...
 
+```python
 sorted(list_of_words, key=lambda x: x.lower())
+```
+
 x represents your words in the list that the function will operate on.
 
 ---
