@@ -119,6 +119,11 @@ def verbing(s):
 
 
 def not_bad(s):
+    if s.find('not')<s.find('bad'):
+        return s.replace(s[s.find('not'):(s.find('bad')+3)],'good')
+    else:
+        return s
+        
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
