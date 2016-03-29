@@ -28,7 +28,12 @@ A set is like a list with duplicates removed.  They don't have an order like a l
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda is used to make functions that don't have to be named first.  Some people call it an "anonymous function".  It's useful to call it if you need a function while in the midst of solving another issue.  
+
+So in the case of "sorted", you can use it to decide what you're going to sort.  Let's say you want to sort a list of words, but first you need to make sure that the sort doesn't get all messed up because some of them are uppercase and some are lowercase.  You can write the sorted function like this...
+
+sorted(list_of_words, key=lambda x: x.lower())
+x represents your words in the list that the function will operate on.
 
 ---
 
