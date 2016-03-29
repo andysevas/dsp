@@ -7,13 +7,21 @@
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
 
-import csv
+import pandas as pd
+import math
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
+#getting the file from github into a table
+url = 'https://raw.githubusercontent.com/andysevas/dsp/master/python/football.csv'
+df = pd.read_csv(url)
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+#creating a new column for Goal Differential
+df['Goal Diff'] = (df['Goals']-df['Goals Allowed'])
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+#Taking the absolute value of that column, so I can find the smallest differential in magnitude
+df['Abs Goal Diff'] = abs(df['Goal Diff'])
+
+#locating the minimum
+smallest_goal_diff = df.loc[df['Abs Goal Diff'] == (df['Abs Goal Diff']).min()]
+
+#Explicitly calling out the team.  
+smallest_goal_diff['Team']
