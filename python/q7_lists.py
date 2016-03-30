@@ -26,6 +26,16 @@ def match_ends(words):
 
 
 def front_x(words):
+    xlist = []
+    reglist = []
+    for i in words:
+        if i[0] == 'x':
+            xlist.append(i)
+        else:
+            reglist.append(i)
+    return sorted(xlist) + sorted(reglist)
+    
+    
     """
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
@@ -91,5 +101,5 @@ def linear_merge(list1, list2):
     ['aa', 'bb', 'cc', 'xx', 'zz']
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
-    """
+    """ 
     raise NotImplementedError
