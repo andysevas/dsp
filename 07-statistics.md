@@ -77,7 +77,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentist methodology is largely based on the frequency of what's already happened.  A location that rains 50 times out of 100 has a 50% chance of raining on a given day.  That likelihood is considered fixed and repeated samples or experiments are believed to create a distribution around that 50%.  Bayesian methodology is more flexible, in that it treats probabilities as more "updateable".  Bayesians use prior distributions or prior knowledge to help inform or update their new probability modeling after they collect more data/info.  If there is background information on whether the weather forecaster says it will rain, or what season it is, they will use this info to say "Given that the meteorologist predicted rain, the conditional probability of rain today is x%".  
 
 ---
 
