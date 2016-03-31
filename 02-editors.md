@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I chose vim because this page mentioned that I should know enough vim to be able to get out of it.  Might as well just learn vim then.  I tried some of the online tutorials and they made sense.  It seemed reasonable.
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I chose Sublime Text.  I've seen people use it before and I'm a little more familiar with it.  I don't do much customization with it because I haven't used it all that much, other than for copying and pasting SQL.  However I like that it can adjust for the language I'm coding in.  It highlights SQL differently than Python and both differently than R, which is cool.  I haven't gotten into the keyboard shortcuts yet because I haven't needed them much.
 
  
