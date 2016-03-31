@@ -70,7 +70,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs is largely used in searching out certain files and then applying some function to them.  It is commonly used with 'find'.  It takes an input and then applies something else to the input.  Here's an example.
+
+``$ find . -name "*.txt" | xargs rm ``
+
+It finds all files with a .txt in their name (so text files) and then passes that info along to the remove function.  The remove function then deletes them.  
+
 
  
 
