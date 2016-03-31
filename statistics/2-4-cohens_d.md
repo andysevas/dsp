@@ -35,3 +35,4 @@ Then I simply use his function with the babies' weights, which is the column ind
 ```python
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  #First babies weights vs. Non-first weights
 ```
+The answer returned is -0.088672927072602.  This is a small effect size.
