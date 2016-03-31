@@ -36,10 +36,10 @@ except ValueError:
 #3.2 - #3.4
 print A - C.T
 print C.T + 3*D
-print B*A
+print B.dot(A)
 
 #3.5
 try:
-    print B*(A.T)
+    print B.dot(A.T)
 except ValueError:
     print "Not defined"
