@@ -19,3 +19,11 @@ for i in data:
     
 first3pairs = {k: professor_dict[k] for k in professor_dict.keys()[:3]}
 
+
+#Sorting for question 8
+last_name_sort = sorted(professor_dict, key=lambda x: x[-1]) 
+
+#Just taking the first 3 
+for i in last_name_sort[:3]:
+    print i, ":", professor_dict[i]
+
