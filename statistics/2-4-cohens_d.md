@@ -30,3 +30,8 @@ def CohenEffectSize(group1, group2):
     d = diff / math.sqrt(pooled_var)
     return d
 ```
+
+Then I simply use his function with the babies' weights, which is the column indicated in the problem.
+```python
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  #First babies weights vs. Non-first weights
+```
