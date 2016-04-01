@@ -8,7 +8,7 @@ SD of height for men = 7.7cm = 3.03 inches
 Blue man group minimum height(inches) = 5'10" = 70 inches  
 Blue man group maximum height(inches) = 6'1 = 73 inches  
 
-Now to convert to standard units.
+Now to convert to standard units.  
 Blue man group minimum height(SU) = (70-70.1)/3.03 = -0.033  
 Blue man group maximum height(SU) = (73-70.1)/3.03 = 0.957  
 
