@@ -87,7 +87,7 @@ P(identical twins are both males) * P(identical twins) = 0.5  * 0.0033 = 0.00166
 Probability of twin fraternal brothers:
 P(fraternal twins are both males) * P(fraternal twins) = 0.25 * 0.008 = 0.002
 
-P(Identicals) = 0.00166/ (0.002 + 0.001666) = 0.4545
+P(Identicals) = 0.00166/ (0.002 + 0.001666) = 0.4545 
 
 
 
